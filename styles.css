@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.BgColor{
+    background-color: rgba(217,217,217,1);
+}
+nav{
+    min-height: 100px;
+    padding-top:50px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.BoxContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    margin-right: 50px;
+}
+.Box{
+    background-color: white;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+
+.MainContainer {
+  display: grid;
+  grid-template-columns: 260px 1fr; 
+  gap: 40px;
+  align-items: left;
+}
+
+.Imagecontainer {
+  display: grid;
+  justify-items: center;
+  align-content: start;
+}
+
+.Image {
+  margin-top: -40px; 
+}
+
+.Image .img {
+  width: 160px;
+  height: 160px;
+  border-radius: 12px;
+  background-color: rgba(238,238,238,1);
+}
+
+.content{
+display: grid;
+gap: 10px;
+justify-content: center;
+justify-items: center;
+}
+.top-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 13px;
+}
+.left-card{
+    background-color: rgb(233, 0, 175);
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 373px;
+    height: 59px;
+    border-radius: 20px;
+}
+.right-card{
+    background-color: rgb(9, 1, 5);
+grid-column: -1/3;
+    width: 112px;
+    height: 59px;
+    border-radius: 20px;
+}
+.big-card{
+     background-color: yellow;
+     width: 886px;
+     height: 243px;
+     border-radius: 20px;
+}
+.row{
+display: grid;
+grid-template-columns: repeat(12,1fr);
+justify-content: center;
+justify-items: center;
+gap:10px;
+}
+.left{
+    background-color: blue;
+    border-radius: 10px;
+    grid-column: 1/4;
+     width: 215px;
+     height: 108px;
+     border-radius: 20px;
+}
+.right{
+    border-radius: 10px;
+    background-color: red;
+    grid-column: 6/-1;
+    grid-row: 1/2;
+     width: 510px;
+     height: 108px;
+     border-radius: 20px;
+}
+.bottom-card{
+     width: 886px;
+     height: 243px;
+    background-color: coral;
+    border-radius: 20px;
+}
